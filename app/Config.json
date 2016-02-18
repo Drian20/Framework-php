@@ -1,0 +1,13 @@
+{
+	"dbconf":{
+		"driver":"mysql",
+		"dbname":"framedb",
+		"dbhost":"localhost",
+		"dbuser":"root",
+		"dbpass":""
+	},
+	"app":{
+		"title":"Le Meg",
+		"version":"0.1"
+	}
+}

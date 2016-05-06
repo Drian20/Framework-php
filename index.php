@@ -1,28 +1,33 @@
 <?php
-	// first phase 
-	// environment
-	// developer mode 
-	ini_set('display_errors','on');
-	//informe de errores
-	error_reporting(E_ALL);
 
-	include 'config.php';
-	require 'sys/helper.php';
-	
-	// Session proof
-	Session::init();
-	$id=Session::get('id');
-	
+ini_set('display_errors', 'on');
+error_reporting(E_ALL);
 
-	// reading configuration
+include 'config.php';
+require 'sys/helper.php';
 
-	$conf=Registry::getInstance();
-	
-	$conf->welcome='Hola';  // __set()
-	$msg=$conf->welcome;    // __get()
-	
-	
+//Inicio sesión
+Session::init();
+$id = Session::get('id');
 
-	Core::init();
+// Check controller/action
+//$loginPath = '/login';
+//$loginAjaxPath = '/login/login';
+//$registerPath = '/register';
+//$url = $_SERVER['REQUEST_URI'];
+//$isLoginPage = ($url == $loginPath);
+//$isRegisterPage = ($url == $registerPath);
+//$isLoggedIn = (isset($_SESSION['user']) == TRUE);
+//
+//$isRegisterOrLoginPage = ($isLoginPage || $isRegisterPage || $loginAjaxPath);
+//
+//if (!$isRegisterOrLoginPage || (!$isRegisterOrLoginPage && !$isLoggedIn)) { // No user
+//    header('Location: ' . $loginPath);
+//} else {
+//
+//Lectura configuración
+$conf = Registry::getInstance();
 
-	
+Core::init();
+
+//}

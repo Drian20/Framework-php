@@ -1,0 +1,240 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"doc",
+				"document"
+			],
+			[
+				"te",
+				"text"
+			],
+			[
+				"scr",
+				"script	Tag"
+			],
+			[
+				"min",
+				"main	<main>"
+			],
+			[
+				"ch",
+				"charset	Attr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"last_filter": "Package Control: in",
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/adri/Sites/Framework/api/index.php",
+		"/Users/adri/Sites/Framework/api/.htaccess",
+		"/Users/adri/Sites/Framework/api/composer.json",
+		"/Users/adri/Sites/Framework/api/db.php",
+		"/Users/adri/Sites/M6/Objects/p2.html",
+		"/Users/adri/Sites/M6/Objects/p3.html",
+		"/Users/adri/Sites/M6/Objects/p1.html",
+		"/Users/adri/Sites/p5/proyectop5.html",
+		"/Users/adri/Sites/p5-zip/empty-example/index.html",
+		"/Users/adri/Sites/m6test/tiempo.html",
+		"/Users/adri/Sites/m6test/provin.html",
+		"/Users/adri/Sites/m6test/encuestas/encuesta.html",
+		"/Users/adri/Sites/m6test/validar/iniciovalidacionconpost.html",
+		"/Users/adri/Sites/m6test/encuesta.html",
+		"/Users/adri/Sites/m6test/cargar_xml_combo/cargarxmlencombo.html",
+		"/Users/adri/Sites/m6test/cargar_xml_combo/cargaprovincias.html",
+		"/Users/adri/Sites/m6test/cargar/cargar.html",
+		"/Users/adri/Sites/Framework/productosjson.html",
+		"/Users/adri/Sites/Framework/productos.json",
+		"/Users/adri/Sites/Framework/productosxml.html",
+		"/Users/adri/Sites/Framework/productos.html",
+		"/Users/adri/Documents/M6/Productos/productos.html",
+		"/Users/adri/Documents/M6/Productos/productos.xml",
+		"/Users/adri/Sites/Framework/sftp-config.json",
+		"/Users/adri/Sites/Framework/app/tpl/register.php",
+		"/Users/adri/Library/Application Support/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/Users/adri/Sites/Framework/app/tpl/head.php",
+		"/Users/adri/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/adri/Sites/Framework/index.php",
+		"/Users/adri/Sites/info.php",
+		"/Users/adri/Sites/index",
+		"/Users/adri/Sites/index.html",
+		"/Users/adri/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"stretchy",
+			"	$('#"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 196.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,13 +1,13 @@
 {
-	"dbconf":{
-		"driver":"mysql",
-		"dbname":"framedb",
-		"dbhost":"localhost",
-		"dbuser":"root",
-		"dbpass":""
-	},
-	"app":{
-		"title":"Le Meg",
-		"version":"0.1"
-	}
+    "dbconf": {
+        "driver": "mysql",
+        "dbname": "framedb",
+        "dbhost": "localhost",
+        "dbuser": "root",
+        "dbpass": "password"
+    },
+    "app": {
+        "title": "Ading",
+        "version": "0.1"
+    }
 }

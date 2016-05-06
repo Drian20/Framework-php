@@ -1,19 +1,11 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title><?= $title; ?></title>
-    <link rel="stylesheet"  type="text/css" href="<?= APP_W.'pub/css/m.css'; ?>">
-</head>
-<body>
-	<header>
-		<h1> View -<?= $title; ?></h1>
-
-		<div id="form">
-			<form action="home/login" method="post">
-				Username <input type="text" name="us" />
-				Password <input type="text" name="password" />
-				<input type="submit" value="Login" />
-			</form>
-		</div>
-	</header>
-	
+    <head>
+        <meta charset="utf-8">
+        <title><?= $title; ?></title>
+        <link rel="stylesheet"  type="text/css" href="pub/css/m.css">
+        <link rel="icon" href="pub/favicon.ico" type="image/x-icon" />
+        <script src="pub/js/jquery.min.js"></script>
+        <script src="pub/js/app.js"></script>
+    </head>
+    <body>

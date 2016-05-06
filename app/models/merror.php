@@ -1,9 +1,9 @@
 <?php
 
-	class mError extends Model{
+class mError extends Model {
 
-		function __construct(){
-			parent::__construct();
-			
-		}
-	}
+    function __construct() {
+        parent::__construct();
+    }
+
+}

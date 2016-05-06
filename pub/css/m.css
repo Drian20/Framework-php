@@ -1,50 +1,202 @@
 *{
-	margin:0;
-	padding:0;
-	color: white
+    margin:0;
+    padding:0;
+    color: white;
+    font-family: "Arial Black", Gadget, sans-serif;
 }
 
-body{
-	font-family: "Arial",Sans-serif;
-	height: 75vh;
-	width: 100%;
-	background-color: #800000;
-} 
-
-header{
-	width: 100%;
-	height: 20vh;
-	position: absolute;
-	background-color: #1a1a1a;
+html{
+    background-image: url('../img/fondom.jpg');
+    background-size: 100%;
+    height: 100%;
 }
 
-footer {
-	width: 100%;
-	height: 10vh;
-	bottom: 0;
-	position: absolute;
-	background-color: #1a1a1a;
+h1{
+    height: 8vh;
+    color: white;
+    font-size: 20vh;
+    padding-left: 37%;
+    padding-top: 2%;
+    background: inherit;
+    text-shadow: 2px 2px darkgrey;
 }
 
-.container{
-	top: 20vh;
-	position: absolute;
-	height:30vh;
-	color: white;
+h2{
+    float: right;
+    color: white;
 }
 
-#form {
-	background: grey;
-	color: black;
-	width: 20%;
-	position: absolute;
-	padding: 1%;
-	text-align: right;
-	right: 0;
-	top: 0;
+#form{
+    box-shadow: 0px 0px 5px 0px black;
+    position: absolute;
+    top:50%;
+    left:63%;
+    width:300px;
+    margin-left:-310px;
+    height:190px;
+    margin-top:-100px;
+    border:3px solid black;
+    border-radius: 25px;
+    background-color: rgba(0,0,0,0.4);
 }
 
-input {
-	margin: 8px;
-	color: black;
+#formreg{
+    box-shadow: 0px 0px 5px 0px black;
+    position: absolute;
+    top:25%;
+    left:50%;
+    width:300px;
+    margin-left:-150px;
+    height:75%;
+    margin-top:-100px;
+    border:5px solid black;
+    border-radius: 25px;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.form-log{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5vh;
+    padding-top: 3vh;
+    color: white;
+}
+
+.form-reg{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5vh;
+    color: white;
+}
+
+.input{
+    margin-bottom: 2vh;
+    width: 100%;
+    color: black;
+}
+
+.btn-default{
+    margin-left: 6%;
+    margin-top: 3%;
+    margin-right: 6%;
+    width: 37%;
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+    font-size: 14px;
+    padding-bottom: 3%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#logout-button, #start-button{
+    background-color: rgba(0,0,0,0.8);
+    font-size: 15px;
+    float: right;
+    width: 10vh;
+    color: white;
+    height: 5vh;
+}
+
+#user{
+    float: right;
+    margin-top: 1vh;
+    margin-right: 1vh;
+}
+
+.dashboard{
+    box-shadow: 0px 0px 10px 5px black;
+    position: absolute;
+    top:5%;
+    left:10%;
+    width:80%;
+    height:90%;
+    border:5px solid black;
+    border-radius: 25px;
+    background-color: rgba(0,0,0,0.6);
+    opacity: 0.8;
+}
+
+form{
+    color: white;
+    opacity: 1;
+}
+
+input{
+    color: black;
+    opacity: 1;
+}
+
+h3{
+    margin-left: 5%;
+    margin-top: 1%;
+    color: white;
+}
+
+h4{
+    color: white;
+    font-size: 100px;
+    padding: 40%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+b{
+    color: white;
+    margin-left: 34%;
+    margin-top: 5%;
+    font-size: 50px;
+}
+
+.flex{
+    margin-top: 10%;
+    width: 100%;
+    font-size: 15px;
+}
+
+.flex input{
+    margin-right: 10px;
+    margin-left: 20px;
+    width: 120px;
+    height: 15px;
+    float: left;
+}
+
+#cont{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#del{
+    padding-top: 50px;
+}
+
+#showUsers{
+    width: 100%;
+    height: 45%;
+    background-color: transparent;
+}
+
+#inicio{
+    margin-top: 20%;
+    border: 1px black;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: auto;
+    color: white;
+    font-size: 100px;
+}
+
+table{
+    margin-left: 150px;
+    margin-top: 20px;
+    border: 4px solid black;
+}
+
+td{
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
